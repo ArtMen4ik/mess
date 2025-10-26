@@ -149,7 +149,7 @@ io.on('connection', (socket) => {
 });
 
 // ---------- Старт ----------
-const PORT = process.env.PORT || 3000;
+
 server.listen(PORT, '0.0.0.0', () => {
   log(`🚀 server listening on http://0.0.0.0:${PORT}`);
   log(`📁 static served from: ${PUBLIC_DIR}`);
